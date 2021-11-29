@@ -1,0 +1,11 @@
+---
+# Percentage of tax amount deducted by player after revival
+# The player's deducted amount is calculated using the formula below:
+# (Player's Money) x TaxPercent(%) / 100 = (Player taxes are deducted when they revival)
+TaxPercent: 10 #Percent(%)
+
+# Notifications sent to players when they death
+# {TaxMoney} : Server revival tax percentage
+# {TaxPercent} The amount of the player's revival tax to pay
+TaxNotice: "§aYou have been deducted §e${TaxMoney} §arevival tax! §f(§bTax Percent: §c{TaxPercent}%§f)§r"
+...
