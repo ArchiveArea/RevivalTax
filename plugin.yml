@@ -1,7 +1,7 @@
 ---
 name: RevivalTax
-api: 4.0.0
-version: 0.0.1
+api: 5.0.0
+version: 0.0.2
 depend: [EconomyAPI]
 main: NhanAZ\RevivalTax\Main
 website: https://github.com/NhanAZ
